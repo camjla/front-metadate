@@ -1,0 +1,6 @@
+export const Color = {
+  COLOR_PRIMARY: '#2A2F4F',
+  COLOR_SECONDARY: '#E5BEEC',
+  TEXT_COLOR: '#FCFBFD',
+  PURPLE_MAIN: '#917FB3'
+}
