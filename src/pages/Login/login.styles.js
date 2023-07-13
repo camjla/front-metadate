@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-//import { Color } from '../../utils/colors.app'
+import { Color } from '../../utils/colors.app'
 
 export const Container = styled.div`
   width: 100%;
@@ -12,27 +12,35 @@ export const Container = styled.div`
 export const Picture = styled.div`
   width: calc(100% - 800px);
   height: 100%;
-  background-image: url('../../assets/eueele1.png');
+  background-image: url(eueele1.png);
 `
 
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+`
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   font-family: 'Poppins', 'sans serif';
-  gap: 5rem;
+  gap: 2rem;
 `
 export const Input = styled.input`
-  width: 50rem;
-  height: 50rem;
+  width: 20rem;
+  height: 5rem;
 
   border-radius: 0.25rem;
-  border: 1px solid #000;
+  border: 2px solid #000;
   background: #fefefe;
 `
 export const Button = styled.button`
-  width: 12.5rem;
+  width: 10.5rem;
   height: 4.75rem;
   border-radius: 0.25rem;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: ${Color.PURPLE_MAIN};
 `
