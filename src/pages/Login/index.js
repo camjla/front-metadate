@@ -6,12 +6,14 @@ import {
   Button,
   Content
 } from './login.styles'
+import logo from '../../assets/image 1.svg'
 
 export const Login = () => {
   return (
     <Container>
       <Picture />
       <Content>
+        <img width="450px" height="200px" src={logo} alt="logo" />
         <Wrapper>
           login
           <Input type="text" />
